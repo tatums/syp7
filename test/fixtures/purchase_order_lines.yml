@@ -1,0 +1,43 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  po_code: MyString
+  product_code: 1
+  record_type: 1
+  order_qty: 9.99
+  order_uom: MyString
+  pricing_uom: MyString
+  receipt_date: 2011-05-18
+  unit_price: 9.99
+  est_weight: 9.99
+  weight_received: 9.99
+  alt_qty_received: 9.99
+  est_alt_qty: 9.99
+  est_price_qty: 9.99
+  price_qty_received: 9.99
+  amount_invoiced: 9.99
+  desc1: MyString
+  desc2: MyString
+  product_text1: MyString
+  product_text2: MyString
+
+two:
+  po_code: MyString
+  product_code: 1
+  record_type: 1
+  order_qty: 9.99
+  order_uom: MyString
+  pricing_uom: MyString
+  receipt_date: 2011-05-18
+  unit_price: 9.99
+  est_weight: 9.99
+  weight_received: 9.99
+  alt_qty_received: 9.99
+  est_alt_qty: 9.99
+  est_price_qty: 9.99
+  price_qty_received: 9.99
+  amount_invoiced: 9.99
+  desc1: MyString
+  desc2: MyString
+  product_text1: MyString
+  product_text2: MyString

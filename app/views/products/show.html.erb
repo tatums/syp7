@@ -1,0 +1,9 @@
+<h2>Product: <%= @product.code %> - <%= @product.description_1 %> - <%= @product.description_2 %> </h2>
+<p>Active: <%= yes_no_status(@product) %>	
+</p>
+
+<dl>		
+	<dd><h3><%= link_to "DC Transactions", product_transactions_path(@product) %></h3></dd>
+	<dd><h3><%= link_to "Product History", product_product_histories_path(@product) %></h3></dd>
+</dl>		
+

@@ -1,0 +1,42 @@
+<h2>DC Transactions</h2>
+<%= link_to 'upload', :action => 'new' %>
+
+<%= will_paginate @transactions %>
+
+<table class="center">
+  <tr>
+    <th><%= sortable 'trans_date','trans_date' %> </th>
+    <th><%= sortable 'product_code','product_code' %> </th>
+    <th><%= sortable 'lot_code','lot' %> </th>
+    <th><%= sortable 'unit_cost','unit_cost' %> </th>
+    <th><%= sortable 'alt_qty','alt_qty' %> </th>
+	<th><%= sortable 'p_qty','p_qty' %> </th>
+    <th><%= sortable 'line_code','line_code' %> </th>
+    <th><%= sortable 'vendor_code','vendor_code' %> </th>
+    <th><%= sortable 'pallet_id','pallet_id' %> </th>
+    <th><%= sortable 'transaction_type','transaction_type' %> </th>
+    <th><%= sortable 'po_code','PO' %> </th>
+    <th><%= sortable 'whse','whse' %> </th>
+  </tr>
+
+<% @transactions.each do |t| %>
+  <tr class="<%= cycle('color', 'no-color') %>">
+    <td><%=link_to t.trans_date.strftime("%m/%d/%Y"), t.day %> <%= t.trans_time.localtime.strftime("%I:%M %p") %></td>
+    <td><%=link_to t.product.code_and_desc1, t.product %></td>
+    <td><%=link_to t.lot_code, lot_path(t.lot_code) %></td>
+    <td class="currency"><%= number_to_currency(t.unit_cost, :precision => 4) %></td>
+    <td><%= t.alt_qty %></td>
+	<td class="right-align"><%= t.p_qty %></td>
+    <td><%# link_to t.linecode.code, t.linecode %><%= link_to t.linecode.code_and_desc, t.linecode %></td>
+    <td><%=link_to t.vendor_code, t.vendor %><%# link_to t.vendor.code_and_name, t.vendor %></td>
+    <td><%= t.pallet_id %></td>
+    <td><%= t.transaction_type %></td>
+    <td><%= t.po_code %></td>
+    <td><%= t.whse %></td>
+  </tr>
+<% end %>
+</table>
+<%= will_paginate @transactions %>
+
+<%= link_to 'upload', :action => 'new' %>
+

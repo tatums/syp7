@@ -1,0 +1,15 @@
+
+<h1><%= @order.code %></h1>
+<h2><%=link_to @order.customer.name, customer_path(@order.customer) %></h2>
+<p>Salsesperson: <%= link_to @order.salesperson.name, @order.salesperson %></p>
+<p><%= number_to_currency(@order.estimated_amount) %></p>
+
+
+<%# render :template => 'orderlines/index', :collection => @orderlines %>
+<%= render 'orderlines' %>
+
+
+
+<h1>Cost Total: <%= number_to_currency(@order.cost_sub_total) %></h1>
+<h1>Price Total: <%= number_to_currency(@order.price_sub_total) %></h1>
+<h1>Difference: <%= number_to_currency(@order.profit_margin) %></h1>

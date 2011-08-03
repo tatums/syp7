@@ -1,0 +1,24 @@
+<h1><%=@year.year %></h1>
+
+
+<table class="center">
+	<tr>
+		<th>Month</th>
+		<th>Sales</th>
+		<th>Cost</th>
+		<th>Profit</th>
+	</tr>	
+		
+			
+	<% @months.each do |month| %>
+	<tr>
+		<td><%= link_to month.formatted_month, year_month_days_path(month.year, month.id) %></td>
+		<td class="right"><%= number_to_currency(month.gross_sales, :precision => 0) %></td>
+		<td class="right"><%= number_to_currency(month.gross_cost, :precision => 0) %></td>
+		<td class="right"><%= number_to_currency(month.net_profit, :precision => 0) %></td>
+	</tr>	
+
+	<% end %>
+</table>
+
+<%= high_chart("chart", @chart)  %>

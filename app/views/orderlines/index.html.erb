@@ -1,0 +1,68 @@
+<%= link_to 'upload', :action => 'new' %>
+
+
+
+<table class="orders">
+	<tr>
+		<th colspan="20">
+		<h2>Order Lines</h2>
+		</th>
+	</tr>	
+  <tr>
+	
+	<th>customer_id</th> 
+    <th>default_cost</th> 
+    <th>default_price</th> 
+    <th>extended_cost</th> 
+    <th>extended_price</th> 
+    <th>line_number</th> 
+    <th>line_type</th> 
+    <th>line_weight</th>
+    <th>order_uom</th> 
+    <th>lot_total_cost</th> 
+    <th>order_id</th> 
+    <th>override_cost</th> 
+    <th>pricing_uom</th>
+    <th>product_id</th> 
+    <th>product_description</th>
+    <th>qty_pricing</th>
+    <th>qty_ordered</th>
+    <th>unit_price</th> 
+    <th>unit_cost</th> 
+    <th>lot_qty_price</th> 
+    <th>lot_qty_alt</th>
+    <th>order_date</th>
+	
+  </tr>
+
+<% @orderlines.each do |line| %>
+  <tr class="<%= cycle('color', 'no-color') %>">
+
+	<td><%= link_to line.customer_code, customer_path(line.customer_code) %></td> 
+    <td><%= line.default_cost %></td> 
+    <td><%= line.default_price %></td> 
+    <td><%= line.extended_cost %></td> 
+    <td><%= line.extended_price %></td> 
+    <td><%= line.line_number %></td> 
+    <td><%= line.line_type %></td> 
+    <td><%= line.line_weight %></td>
+    <td><%= line.order_uom %></td> 
+    <td><%= line.lot_total_cost %></td> 
+    <td><%= link_to line.order_code, order_path(line.order_code) %></td> 
+    <td><%= line.override_cost %></td> 
+    <td><%= line.pricing_uom %></td>
+    <td><%= line.product_code %></td> 
+    <td><%= line.product_description %></td>
+    <td><%= line.qty_pricing %></td>
+    <td><%= line.qty_ordered %></td>
+    <td><%= line.unit_price %></td> 
+    <td><%= line.unit_cost %></td> 
+    <td><%= line.lot_qty_price %></td> 
+    <td><%= line.lot_qty_alt %></td>
+    <td><%= line.order_date.strftime("%m/%d/%Y") %></td>
+  </tr>
+
+<% end %>
+</table>
+
+<%= will_paginate @orderlines %>

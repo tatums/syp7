@@ -1,0 +1,8 @@
+<h1><%= @vendor.code_and_name %></h1>
+
+<dl>		
+	<dd><h3><%= link_to "DC Transactions", vendor_transactions_path(@vendor) %></h3></dd>
+	<dd><h3><%= link_to "Purchase Orders", vendor_purchase_orders_path(@vendor) %></h3></dd>
+</dl>		
+
+

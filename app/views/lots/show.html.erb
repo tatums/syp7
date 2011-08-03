@@ -1,0 +1,10 @@
+	<%# render :template => 'transactions/index', :collection => @transactions %>
+
+
+
+<dl>
+	<dt><h2>Lot: <%= @lot.id %></h2></dt>
+	<dd><p><%= link_to @lot.product.code, @lot.product %> - <%= @lot.product.full_desc %></p></dd>
+	<dd><h3><%= link_to 'DC Transactions', lot_transactions_path(@lot) %></h3></dd>
+	<dd><h3><%= link_to 'Product History', lot_product_histories_path(@lot) %></h3></dd>
+</dl>

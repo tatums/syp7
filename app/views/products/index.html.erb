@@ -1,0 +1,31 @@
+<h2>Products</h2>
+
+<%= link_to 'upload', :action => 'new' %>
+
+<%= will_paginate @products %>
+<table class="center">
+  <tr>
+    <th> active</th>
+    <th> product code</th>
+    <th> category_code</th>
+    <th> description_1</th>
+    <th> description_2</th>
+    <th> apn#</th>
+    <th> psys</th>
+  </tr>
+
+<% @products.each do |p| %>
+  <tr class="<%= cycle('color', 'no-color') %>">
+    <td><%=h status(p) %></td>
+    <td><%=link_to p.code, p %></td>
+    <td><%=p.category_code %></td>
+    <td><%=link_to p.description_1, p %></td>
+    <td><%=link_to p.description_1, p %></td>
+    <td><%=h p.apn %></td>
+    <td><%=h p.psys %></td>
+  </tr>
+<% end %>
+</table>
+
+<%= link_to 'upload', :action => 'new' %>
+<%= will_paginate @products %>

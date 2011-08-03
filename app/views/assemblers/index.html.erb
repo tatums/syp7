@@ -1,0 +1,22 @@
+<h2>Assemblers</h2>
+<%= link_to 'upload', :action => 'new' %>
+
+
+
+<table class="center">
+  <tr>
+    <th>Code</th>
+    <th>Name</th>
+
+  </tr>
+
+<% @assemblers.each do |assembler| %>
+  <tr class="<%= cycle('color', 'no-color') %>">
+    <td><%= assembler.code %></td>
+    <td><%= link_to assembler.name, assembler %></td>
+  </tr>
+<% end %>
+</table>
+
+<%= link_to 'upload', :action => 'new' %>
+<%= will_paginate @assemblers %>

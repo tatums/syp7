@@ -1,0 +1,14 @@
+
+
+
+<dl>		
+	<dt><h1><%= @day.day.strftime("%A %B %d, %Y")%></h1></dt>
+	<dd><h3><%= @day.purchase_orders_count %> <%= link_to "Purchase Orders",day_purchase_orders_path(@day)%></h3></dd>
+	<dd><h3><%= @day.orders_count %> <%= link_to "Orders", day_orders_path(@day)%></h3></dd>
+	<dd><h3><%= number_with_delimiter(@day.transactions_count) %> <%=link_to"Transactions", day_transactions_path(@day)%></h3></dd>
+	<dd><h3><%= number_with_delimiter(@day.product_histories_count) %> <%= link_to "Product History", day_product_histories_path(@day)%></h3></dd>
+</dl>		
+
+
+
+

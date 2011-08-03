@@ -1,0 +1,37 @@
+
+<table class="center">
+	<tr>
+		<th colspan="7">
+		<h2>Purchase Orders</h2>
+		</th>
+	</tr>	
+  <tr>
+    
+    <th><%= sortable 'code', "PO #"  %></th>
+    <th><%= sortable 'warehouse_code',  'Whse' %></th>
+    <th><%= sortable 'vendor_code', 'Vendor' %></th>
+    <th><%= sortable 'required_date', "Received on" %></th>
+    <th><%= sortable 'est_total', 'Est Total' %></th>
+    <th><%= sortable 'received_total', 'Received Total'%></th>    
+ 	<th><%= sortable 'amount_invoiced', 'Amount Invoiced'%></th>
+    <th><%= sortable 'status', 'Status' %> </th>
+  </tr>
+
+<% @purchase_orders.each do |po| %>
+  <tr class="<%= cycle('color', 'no-color') %>">
+    <td><%= link_to po.code, po %></td>
+    <td><%= po.warehouse_code %></td>
+    <td><%= link_to po.vendor.name, po.vendor %></td>
+	<td><%= po.required_date.strftime("%m/%d/%Y") %></td>
+	<td class="currency"><%= number_to_currency(po.est_total) %></td>
+    <td class="currency"><%= number_to_currency(po.received_total) %></td>
+    <td class="currency"><%= number_to_currency(po.amount_invoiced) %></td>
+	<td><%= po.status %></td>
+  </tr>
+<% end %>
+</table>
+
+
+<%= will_paginate @purchase_orders %>
+
+<%= link_to 'upload', :action => 'new' %>

@@ -1,0 +1,35 @@
+<h2>Customers</h2>
+<%= link_to 'upload', :action => 'new' %>
+
+
+
+<table class="customers center">
+  <tr>
+    <th>Aspen Cust ID</th>
+    <th>Name</th>
+    <th>Address</th>
+    <th>City</th>
+    <th>State</th>
+    <th>Zip</th>
+    <th>Orders</th>
+  </tr>
+
+<% @customers.each do |customer| %>
+  <tr>
+    <td><%=h customer.code %></td>
+  	<td><%= link_to customer.name, customer %></td>
+    <td><%=h customer.address %></td>
+    <td><%=h customer.city %></td>
+    <td><%=h customer.state %></td>
+    <td><%=h customer.zip %></td>
+    <td><%=h customer.orders_count %></td>
+
+  </tr>
+<% end %>
+</table>
+
+<%= link_to 'upload', :action => 'new' %>
+
+<%= will_paginate @customers %>
+
+<p><%=@test%></p>

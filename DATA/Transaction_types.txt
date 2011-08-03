@@ -1,0 +1,9 @@
+TRANSACTION TYPES
+1 => 'Charge/Cash Sale Customer Expense'
+10 => 'Charge Sales Type 1'
+20 => 'Credit Memo Type 1'
+21 => 'Credit Memo Type 2'
+30 => 'Receipts To Stock'
+31 => 'Formula Receipt To Stock'
+32 => 'Inventory Transfer'
+90 => 'Physical Inventory Adjustment'

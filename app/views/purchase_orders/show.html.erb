@@ -1,0 +1,17 @@
+<h1>PO# <%= @purchase_order.code %></h1>
+
+	<p>
+		<%= @purchase_order.po_date.strftime("%m/%d/%Y")%>
+	</p>	
+
+	<p>
+		<%= link_to @purchase_order.vendor.name, @purchase_order.vendor %>
+	</p>	
+
+
+		<%= render :template => 'purchase_order_lines/index', 
+			:collection => @purchase_order.line_items, 
+			:as  => :purchase_order_lines %>
+
+
+<%= render :template => 'transactions/index' %>

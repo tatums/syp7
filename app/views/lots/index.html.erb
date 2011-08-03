@@ -1,0 +1,39 @@
+<%= link_to 'upload', :action => 'new' %>
+
+
+<table class="center">
+	<tr>
+		<th colspan="8">
+		<h2>Product Lots</h2>
+		</th>
+	</tr>	
+  <tr>
+    <th><%= sortable 'product_code', 'Item' %></th>    
+    <th><%= sortable 'code', 'lot' %></th>
+    <th><%= sortable 'date', 'date' %></th>
+    <th><%= sortable 'transaction_code', 'transaction_code' %></th>
+    <th><%= sortable 'available_qty', 'available_qty' %></th>
+    <th><%= sortable 'price_uom', 'price_uom' %></th>
+    <th><%= sortable 'alt_uom', 'alt_uom' %></th>
+    <th><%= sortable 'available_price', 'avail price' %></th>
+    <th><%= sortable 'pallet_code', 'pallet' %></th>
+	
+  </tr>
+
+<% @lots.each do |lot| %>
+  <tr class="<%= cycle('color', 'no-color') %>">
+    <td><%= link_to lot.product_code, lot.product %></td>
+    <td><%= link_to lot.code, lot %></td>
+    <td><%= link_to lot.date.strftime("%m/%d/%Y"), lot.day %></td>
+    <td><%= lot.transaction_code %></td>
+    <td><%= lot.available_qty %></td>
+    <td><%= lot.price_uom %></td>
+    <td><%= lot.alt_uom %></td>
+    <td><%= lot.available_price %></td>
+    <td><%= lot.pallet_code %></td>
+  </tr>
+
+<% end %>
+</table>
+<%= will_paginate @lots %>
+

@@ -1,0 +1,9 @@
+<dl>
+	<dt><h2><%= @customer.name %></h2></dt>
+	<dd><h3><%= @customer.orders_count %> <%= link_to 'Orders', customer_orders_path(@customer) %></h3></dd>
+	<dd><h3><%= @customer.product_histories_count %> <%= link_to 'Product History', customer_product_histories_path(@customer)  %></h3></dd>
+	<dd><%# link_to @customer. , @customer %></dd>
+</dl>	
+		
+		
+	

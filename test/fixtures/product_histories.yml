@@ -1,0 +1,43 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  trans_date: 2011-06-27
+  product_code: 1
+  whse: 1
+  salesperson_code: 1
+  billing_customer: 1
+  po: MyString
+  lot: 1
+  alt_uom: MyString
+  alt_qty: 1
+  prc_qty: 9.99
+  prc_uom: MyString
+  unit_cost: 9.99
+  unit_price: 9.99
+  weight: 9.99
+  total_cost: 9.99
+  total_sales: 9.99
+  trans_type: 1
+  trans_desc: MyString
+  assembler_code: 1
+
+two:
+  trans_date: 2011-06-27
+  product_code: 1
+  whse: 1
+  salesperson_code: 1
+  billing_customer: 1
+  po: MyString
+  lot: 1
+  alt_uom: MyString
+  alt_qty: 1
+  prc_qty: 9.99
+  prc_uom: MyString
+  unit_cost: 9.99
+  unit_price: 9.99
+  weight: 9.99
+  total_cost: 9.99
+  total_sales: 9.99
+  trans_type: 1
+  trans_desc: MyString
+  assembler_code: 1

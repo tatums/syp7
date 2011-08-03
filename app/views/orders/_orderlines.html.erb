@@ -1,0 +1,48 @@
+<table class="orders">
+	<tr>
+		<th colspan="20">
+		<h2>Order Lines</h2>
+		</th>
+	</tr>	
+  <tr>
+	<th>line#</th> 
+    <th>Item</th> 
+    <th>Description</th>
+    <th>qty ordered</th>
+    <th>order uom</th> 
+    <th>qty pricing</th>
+    <th>pricing uom</th>
+    <th>unit_price</th> 
+    <th>extended_price</th> 
+	
+  </tr>
+
+<% @orderlines.each do |line| %>
+  <tr class="<%= cycle('color', 'no-color') %>">
+    <td><%= line.line_number %></td> 
+    <td><%= line.product_code %></td> 
+    <td><%= line.product_description %></td>
+
+    <td class="right"><%= line.qty_ordered %></td>
+    <td><%= line.order_uom %></td> 
+    <td class="right"><%= line.qty_pricing %></td>
+    <td><%= line.pricing_uom %></td>
+    <td class="currency"><%= number_to_currency(line.unit_price) %></td> 
+    <td class="currency"><%= number_to_currency(line.extended_price) %></td> 
+
+ </tr>
+<tr class="<%= cycle('color', 'no-color') %>">
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td></td>
+
+    <td class="currency"><%= number_to_currency(line.unit_cost) %></td> 
+    <td class="currency"><%= number_to_currency(line.extended_cost) %></td> 
+</tr> 
+
+<% end %>
+</table>

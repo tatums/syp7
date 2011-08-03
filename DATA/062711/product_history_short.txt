@@ -1,0 +1,24 @@
+TransactionDate	ProductCode	WarehouseCode	SalespersonCode	BillingCustomer	PONumber	LotNumber	AlternateUM	Quantity_Alt	Quantity_Prc	PricingUM	UnitCost	UnitPrice	Weight	TotalCost	TotalSales	TransactionType	TransactionTypeDesc	AssemblerCode
+06/27/2011	   164-1-08	8	0	0		0000190833	BX	-1	-1	BX 	91.65	0	0	-91.65	0	90	Physical Inventory Adjustment	0
+06/27/2011	   500-1-01	1	4	67				0	0		35.17	0	0	35.17	0	1	Charge/Cash Sale Customer Expense	23
+06/27/2011	   500-1-01	1	4	67				0	0		4.83	0	0	4.83	0	1	Charge/Cash Sale Customer Expense	23
+06/27/2011	   500-1-01	1	29	71				0	0		0.35	0	0	0.35	0	1	Charge/Cash Sale Customer Expense	17
+06/27/2011	   500-1-01	1	29	71				0	0		4.09	0	0	4.09	0	1	Charge/Cash Sale Customer Expense	17
+06/27/2011	   500-1-01	1	29	71				0	0		5.21	0	0	5.21	0	1	Charge/Cash Sale Customer Expense	17
+06/27/2011	   500-1-01	1	29	71				0	0		0.64	0	0	0.64	0	1	Charge/Cash Sale Customer Expense	17
+06/27/2011	   500-1-01	1	29	71				0	0		3.7	0	0	3.7	0	1	Charge/Cash Sale Customer Expense	17
+06/27/2011	   500-1-01	1	29	71				0	0		1.62	0	0	1.62	0	1	Charge/Cash Sale Customer Expense	17
+06/27/2011	   500-1-01	1	29	71				0	0		3.46	0	0	3.46	0	1	Charge/Cash Sale Customer Expense	17
+06/27/2011	   500-1-01	1	29	71				0	0		9.33	0	0	9.33	0	1	Charge/Cash Sale Customer Expense	17
+06/27/2011	   500-1-01	1	29	71				0	0		2.72	0	0	2.72	0	1	Charge/Cash Sale Customer Expense	17
+06/27/2011	   500-1-01	1	29	71				0	0		2.11	0	0	2.11	0	1	Charge/Cash Sale Customer Expense	17
+06/27/2011	  1038-1-01	1	0	0	     72279	3607036234	BX	1	43.8	LB	5.4	0	43.8	236.52	0	30	Receipts To Stock	0
+06/27/2011	  1038-1-01	1	0	0	     72279	3607036422	BX	1	46.4	LB	5.4	0	46.4	250.56	0	30	Receipts To Stock	0
+06/27/2011	  1038-1-01	1	0	0	     72279	3607036466	BX	1	49.6	LB	5.4	0	49.6	267.84	0	30	Receipts To Stock	0
+06/27/2011	  1038-1-01	1	0	0	     72279	3607036518	BX	1	47	LB	5.4	0	47	253.8	0	30	Receipts To Stock	0
+06/27/2011	  1038-1-01	1	0	0	     72279	3607036528	BX	1	47.6	LB	5.4	0	47.6	257.04	0	30	Receipts To Stock	0
+06/27/2011	  1038-1-01	1	0	0	     72279	3607036541	BX	1	44.4	LB	5.4	0	44.4	239.76	0	30	Receipts To Stock	0
+06/27/2011	  1038-1-01	1	0	0	     72279	3607036599	BX	1	48.8	LB	5.4	0	48.8	263.52	0	30	Receipts To Stock	0
+06/27/2011	  1038-1-01	1	0	0	     72279	3607036641	BX	1	42	LB	5.4	0	42	226.8	0	30	Receipts To Stock	0
+06/27/2011	  1038-1-01	1	0	0	     72279	3607036704	BX	1	45.8	LB	5.4	0	45.8	247.32	0	30	Receipts To Stock	0
+06/27/2011	  1038-1-01	1	0	0	     72279	3607036738	BX	1	47.2	LB	5.4	0	47.2	254.88	0	30	Receipts To Stock	0

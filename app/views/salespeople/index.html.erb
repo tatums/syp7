@@ -1,0 +1,22 @@
+<h2>Sales People</h2>
+<%= link_to 'upload', :action => 'new' %>
+
+
+
+<table class="center">
+  <tr>
+    <th>Salesman ID</th>
+    <th>Name</th>
+
+  </tr>
+
+<% @salespeople.each do |salesperson| %>
+  <tr class="<%= cycle('color', 'no-color') %>">
+    <td><%=h salesperson.code %></td>
+    <td><%= link_to salesperson.name, salesperson %></td>
+  </tr>
+<% end %>
+</table>
+
+<%= link_to 'upload', :action => 'new' %>
+<%= will_paginate @salespeople %>

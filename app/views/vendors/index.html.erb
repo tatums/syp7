@@ -1,0 +1,35 @@
+<h2>Vendors</h2>
+<%= link_to 'upload', :action => 'new' %>
+
+
+
+<table class="customers">
+  <tr>
+  	<th>Vendor Code</th>
+    <th>Name</th>
+    <th>Address</th>
+    <th>Address2</th>
+    <th>City</th>
+    <th>State</th>
+    <th>Zip</th>
+    <th>YTP Purchased</th>
+  </tr>
+
+<% @vendors.each do |vendor| %>
+  <tr>
+    <td><%= link_to vendor.code, vendor %></td>
+    <td><%= vendor.name %></td>
+    <td><%= vendor.address_1 %></td>
+    <td><%= vendor.address_2 %></td>
+    <td><%= vendor.city %></td>
+    <td><%= vendor.state %></td>
+    <td><%= vendor.zip_code %></td>
+    <td class="currency"><%= number_to_currency(vendor.ytd_purchased) %></td>
+  </tr>
+<% end %>
+</table>
+
+<%= link_to 'upload', :action => 'new' %>
+
+<%= will_paginate @vendors %>
+

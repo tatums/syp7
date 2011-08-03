@@ -1,0 +1,35 @@
+<table class="center">
+	<tr>
+		<th colspan="7">
+		<h2>Orders</h2>
+		</th>
+	</tr>	
+  <tr>
+    <th><%= sortable 'order_date', 'Order Date' %></th>
+    <th><%= sortable 'code', 'Order #' %></th>
+    <th><%= sortable 'customer_code', 'Customer' %></th>
+    <th><%= sortable 'estimated_amount','Estimated Amount' %></th>
+    <th><%= sortable 'salesperson_code','Salesman' %></th>
+    <th><%= sortable 'shipping_code','Shipping ID' %></th>
+    <th><%= sortable 'customer_po','Customer PO' %></th>    
+    <th><%= sortable 'csr','CSR'%>	</th>
+  </tr>
+
+<% @orders.each do |order| %>
+  <tr class="<%= cycle('color', 'no-color') %>">
+    <td><%= link_to order.order_date.strftime("%m/%d/%Y, %a"), order.day %></td>
+    <td><%= link_to order.code, order %></td>
+    <td><%# link_to order.customer.name, customer_path(order.customer) %></td>
+    <td class="currency"><%=h number_to_currency(order.estimated_amount) %></td>
+    <td><%= link_to order.salesperson.name, order.salesperson %></td>
+    <td><%= order.shipping_code %></td>
+    <td><%= order.customer_po %>&nbsp;</td>
+    <td><%= order.csr %></td>
+  </tr>
+<% end %>
+</table>
+
+
+<%= will_paginate @orders %>
+
+<%= link_to 'upload', :action => 'new' %>

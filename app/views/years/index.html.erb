@@ -1,0 +1,8 @@
+
+<dl>
+	<dt><h1>Years</h1></dt>
+	<% @years.each do |year| %>
+		<dd><%= link_to year.year, year_months_path(year) %></dd>
+		
+	<% end %>
+</dl>	

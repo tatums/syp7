@@ -1,0 +1,59 @@
+<h2>Product History</h2>
+
+<%= link_to 'upload', :action => 'new' %>
+
+<%= will_paginate @product_histories %>
+<table class="products">
+  <tr>
+    <th> Date</th>
+    <th> Product</th>
+    <th> Salesperson</th>
+    <th> Customer</th>
+    <th> PO</th>
+    <th> LOT</th>
+    <th> alt qty</th>
+    <th> alt uom</th>
+    <th> prc qty</th>
+    <th> prc uom</th>
+    <th> unit cost</th>
+    <th> unit price</th>
+    <th> weight</th>
+    <th> Total Cost</th>
+    <th> Total Sales</th>
+    <th> trans Type</th>
+    <th> Desc</th>
+  </tr>
+
+<% @product_histories.each do |history| %>
+  <tr class="<%= cycle('color', 'no-color') %>">
+    <td><%= link_to history.trans_date.strftime("%m/%d/%Y"), day_path(history.day) %></td>
+    <td><%= link_to history.product_code, product_path(history.product_code) %></td>
+    <td><%= history.salesperson_code %></td>
+    <td><%= link_to history.billing_customer, history.customer %></td>
+    <td><%= history.po %></td>
+    
+		<td><% if history.lot %>
+				<%= link_to history.lot.code, lot_path(history.lot_code) %>
+			<% else %>
+				<%= history.lot_code %>
+			<% end %>
+		</td>
+    <td><%= history.alt_qty %></td>
+    <td><%= history.alt_uom %></td>
+    <td><%= history.prc_qty %></td>
+    <td><%= history.prc_uom %></td>
+    <td><%= history.unit_cost %></td>
+    <td><%= history.unit_price %></td>
+    <td><%= history.weight %></td>
+    <td><%= history.total_cost %></td>
+    <td><%= history.total_sales %></td>
+    <td><%= history.trans_type %></td>
+    <td><%= history.trans_desc %></td>
+  </tr>
+<% end %>
+</table>
+
+<%= link_to 'upload', :action => 'new' %>
+<%= will_paginate @product_histories %>
+
+

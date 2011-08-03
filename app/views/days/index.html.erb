@@ -1,0 +1,35 @@
+<h1>Days</h1>
+
+<table class="center">
+  <tr>
+    <th><%= sortable 'day', "Date" %></th>
+    <th><%= sortable 'purchase_orders_count', "Purchase Orders" %></th>
+    <th><%= sortable 'orders_count', "Orders" %></th>
+    <th><%= sortable 'gross_sales', "Sales" %></th>
+    <th><%= sortable 'gross_cost', "Cost" %></th>
+    <th><%= sortable 'net_profit', "Profit" %></th>
+    <th><%= sortable 'transactions_count', "Transactions" %></th>
+    <th><%= sortable 'product_histories_count', "Product Histories" %></th>
+  </tr>
+
+<% @days.each do |day|%>
+ 	<tr class="<%= cycle('color', 'no-color') %>">
+   		<td><%= link_to day.day.strftime("%m/%d/%Y %a"), day %></td>
+		<td class="right"><%= link_to day.purchase_orders_count, day_purchase_orders_path(day) %></td>
+		<td class="right"><%= link_to day.orders_count, day_orders_path(day) %></td>
+		<td class="right"><%= number_to_currency(day.gross_sales, :precision => 0) %></td>
+		<td class="right"><%= number_to_currency(day.gross_cost, :precision => 0) %></td>
+		<td class="right"><%= number_to_currency(day.net_profit, :precision => 0) %></td>
+		<td class="right"><%= link_to day.transactions_count, day_transactions_path(day) %></td>
+		<td class="right"><%= link_to day.product_histories_count, day_product_histories_path(day) %></td>
+	</tr>		
+<% end %>
+</table>
+
+<p class="center">
+	<%= will_paginate @days %>
+</p>
+
+<% if @chart %>
+	<%= high_chart("chart", @chart)  %>
+<% end %>

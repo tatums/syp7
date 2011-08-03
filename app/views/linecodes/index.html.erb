@@ -1,0 +1,23 @@
+<h2>Line Codes</h2>
+<%= link_to 'upload', :action => 'new' %>
+
+
+
+<table class="center">
+  <tr>
+    <th>Line Code</th>
+    <th>Description</th>
+  </tr>
+
+<% @linecodes.each do |lc| %>
+  <tr class="<%= cycle('color', 'no-color') %>">
+    <td><%=h lc.code %></td>
+    <td><%= link_to lc.description, lc %></td>
+  </tr>
+<% end %>
+</table>
+
+<%= link_to 'upload', :action => 'new' %>
+
+
+<%= will_paginate @line_codes %>

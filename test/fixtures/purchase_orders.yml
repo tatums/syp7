@@ -1,0 +1,27 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  code: 1
+  po_date: 2011-03-29
+  warehouse_code: 1
+  vendor_code: 1
+  terms_code: 1
+  required_date: 2011-03-29
+  amount_invoiced: 9.99
+  est_total: 9.99
+  est_weight: 9.99
+  received_total: 9.99
+  status: 1
+
+two:
+  code: 1
+  po_date: 2011-03-29
+  warehouse_code: 1
+  vendor_code: 1
+  terms_code: 1
+  required_date: 2011-03-29
+  amount_invoiced: 9.99
+  est_total: 9.99
+  est_weight: 9.99
+  received_total: 9.99
+  status: 1

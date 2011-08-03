@@ -1,0 +1,426 @@
+LineWarehouse	LineCode	LineType	Comments
+1	1   	3	scale001
+7	10  	3	Scale010
+1	100 	1	I/R wh#1 FW Terminal
+1	101 	1	Prod wh1 retail lbl
+1	111 	1	Inv Rec Scanner 1
+17	1110	1	Inv Rec Scanner 10
+17	1111	1	Inv Rec Scanner 11
+17	1112	1	Inv Rec Scanner 12
+17	1113	1	inv rec scanner 13
+17	1114	1	inv rec scanner 14
+17	1115	1	inv rec scanner 15
+10	1116	1	inv rec scanner16
+17	1117	1	inv rec scanner 17
+17	1118	1	inv rec scanner 18
+17	1119	1	inv rec scanner 19
+17	112 	1	Inv Rec Scanner 2
+17	1120	1	inv rec scanner 20
+17	113 	1	Inv Rec Scanner 3
+17	114 	1	Inv Rec'd Scanner #4
+17	115 	1	Inv Rec'd Scanner 5
+17	116 	1	Inv Rec'd Scanner 6
+17	117 	1	Inv Rec'd Scanner 7
+17	118 	1	Inv Rec'd Scanner 8
+17	119 	1	Inv Rec'd scanner 9
+17	121 	2	R/M usage Scanner 1
+17	1210	2	R/M usage scanner 10
+17	1211	2	R/M usage scanner 11
+17	1212	2	R/M usage scanner 12
+17	1213	2	inv usage scanner 13
+7	1214	4	inv usage scanner14
+17	1215	2	inv usage scanner 15
+17	1216	2	inv usage scanner 16
+17	1217	2	R/M USAGE GUN 17
+17	1218	2	R/M USAGE SCANNER 18
+17	1219	2	usage scanner 19
+17	122 	2	R/M usage Scanner 2
+17	1220	2	usage scanner 20
+17	123 	2	R/M usage scanner 3
+17	124 	2	R/M usage scanner 4
+1	125 	2	R/M usage scanner 5
+17	126 	2	R/M usage scanner 6
+17	127 	2	R/M usage scanner 7
+17	128 	2	R/M usage scanner 8
+17	129 	2	R/M usage Scanner 9
+17	141 	4	Del Inv Scanner 1
+1	1410	4	TATUM DEL INV
+1	1411	4	MILTON RENTERIA RCV
+1	1412	1	VINCE CUOMO
+6	1413	4	CESAR RECEIVING
+11	1414	2	inv del scanner 14
+1	1415	4	Ross Bridge Deletes
+1	1416	4	MILTON RENTERIA DEL
+1	1417	1	RCVD MISSED INVENTOR
+1	1418	4	TATUM DEL INV
+1	1419	4	delete scanner 19
+1	142 	4	Del Inv Scanner 2
+1	1420	4	delete scanner 20
+17	143 	4	Del Inv Scanner 3
+17	144 	4	Del Inv Scanner 4
+17	145 	4	Del Inv Scanner 5
+17	146 	4	Del Inv Scanner 6
+17	147 	4	Del Inv Scanner 7
+1	148 	4	Del Inv Scanner 8
+17	149 	4	Product Disposal
+17	191 	1	IR prnt labl Scnr 1
+17	1910	1	IR prnt labl Scnr 10
+17	1911	1	IR prnt labl Scnr 11
+17	1912	1	IR prnt labl Scnr 12
+17	1913	1	ir label prnt scn 13
+17	1914	1	ir print scn 14
+17	1915	1	ir print scan 15
+17	1916	1	ir print scan 16
+17	1917	1	ir print scan 17
+17	1918	1	ir print scan 18
+17	1919	1	ir print label 19
+17	192 	1	IR prnt labl Scnr 2
+17	1920	1	ir label print 20
+17	193 	1	IR prnt labl Scnr 3
+17	194 	1	IR prnt labl Scnr 4
+17	195 	1	IR prnt labl Scnr 5
+17	196 	1	IR prnt labl Scnr 6
+17	197 	1	IR prnt labl Scnr 7
+17	198 	1	IR prnt labl Scnr 8
+17	199 	1	IR prnt labl Scnr 9
+17	2   	5	scale002
+2	200 	1	I/R wh#2 FW Terminal
+6	201 	1	Prod wh2 retail labl
+17	211 	1	Inv Rec Scanner 1
+2	2110	1	Inv Rec Scanner 10
+1	2111	1	OSCAR MOORE RCV
+17	2112	1	Inv Rec Scanner 12
+17	2113	1	inv rec scanner 13
+17	2114	1	inv rec scanner 14
+17	2115	1	inv rec scanner 15
+17	2116	1	inv rec scanner 16
+17	2117	1	inv recd scanner 17
+17	2118	1	inv recd scanner 18
+17	2119	1	inv rec scanner 19
+2	212 	1	Inv Rec Scanner 2
+17	2120	1	inv rec scanner 20
+17	213 	1	Inv Rec Scanner 3
+17	214 	1	Inv Rec Scanner 4
+17	215 	1	Inv Rec Scanner 5
+17	216 	1	Inv Rec Scanner 6
+2	217 	1	Inv Rec Scanner 7
+2	218 	1	Inv Rec Scanner 8
+2	219 	1	Inv Rec Scanner 9
+17	221 	2	R/M usage scanner 1
+17	2210	2	R/M usage scanner 10
+17	2211	2	R/M usage scanner 11
+17	2212	2	R/M usage scanner 12
+13	2213	1	inv usage scanner 13
+17	2214	2	inv usage scanner 14
+17	2215	2	inv usage scanner 15
+17	2216	2	inv usage scanner 16
+17	2217	2	usage scanner 17
+17	2218	2	usage scanner 18
+17	2219	2	usage scanner 19
+17	222 	2	R/M usage scanner 2
+17	2220	2	usage scanner 20
+17	223 	2	R/M usage scanner 3
+17	224 	2	R/M usage scanner 4
+17	225 	2	R/M usage scanner 5
+17	226 	2	R/M usage scanner 6
+17	227 	2	R/M usage scanner 7
+17	228 	2	R/M usage scanner 8
+17	229 	2	R/M usage scanner 9
+17	241 	4	Del Inv Scanner 1
+17	2410	4	Del Inv Scanner 10
+1	2411	4	DELETE BY IT
+17	2412	4	Del Inv Scanner 12
+17	2413	4	inv del scanner 13
+2	2414	4	inv del scanner 14
+17	2415	4	inv del scanner 15
+17	2416	4	inv del scanner 16
+17	2417	4	DELETE BY IT
+2	2418	4	DELETE SCANNER 18
+17	2419	4	delete scanner 19
+17	242 	4	Del Inv Scanner 2
+17	2420	4	delete scanner 20
+17	243 	4	Del Inv Scanner 3
+2	244 	4	Del Inv Scanner 4
+17	245 	4	Del Inv Scanner 5
+17	246 	4	Del Inv Scanner 6
+2	247 	4	Del Inv Scanner 7
+17	248 	4	Del Inv Scanner 8
+17	249 	4	Del Inv Scanner 9
+1	2845	1	Mike Tabor
+1	2872	1	Sergio
+2	291 	1	IR wh2 prt labl gun1
+2	2910	1	IR wh2 prt lbl gun10
+2	2911	1	IR wh2 prt lbl gun11
+2	2912	1	IR wh2 prt lbl gun12
+2	2913	1	IR PRINT SCANNER 13
+2	2914	1	IR PRINT SCANNER 14
+2	2915	1	IR PRINT SCANNER 15
+2	2916	1	IR PRINT SCANNER 16
+2	2917	1	IR PRINT SCANNER 17
+2	2918	1	IR PRINT SCANNER 18
+2	2919	1	ir label print 19
+2	292 	1	IR wh2 prt labl gun2
+2	2920	1	ir label print 20
+2	293 	1	IR wh2 prt labl gun3
+2	294 	1	IR wh2 prt labl gun4
+2	295 	1	IR wh2 prt labl gun5
+2	296 	1	IR wh2 prt labl gun6
+2	297 	1	IR wh2 prt labl gun7
+2	298 	1	IR wh2 prt labl gun8
+17	2987	1	OLD - DANNY V FZR 
+2	299 	1	IR wh2 prt labl gun9
+1	3   	5	scale003
+1	301 	1	Prod whse1 rcv Mortn
+1	3874	1	Robert Johnson
+1	3901	1	Dave Kruger
+17	4   	5	scale004
+1	4101	1	Whse 1 Phy Receiving
+1	4198	1	Danny Velasquez
+1	4202	1	ANTONIO THOMPKINS
+17	4505	1	Whse5 Phy Receiving
+17	4606	1	Whse 6 Phy Receiving
+17	4707	1	Whse7 Phy Receiving
+1	4796	1	DANNY VELAZQUEZ FRZR
+1	5   	3	scale001
+1	500 	5	Prodctn print only
+5	511 	1	Inv Rec Scanner 1
+5	5110	1	Inv Rec Scanner 10
+5	5111	1	Inv Rec Scanner 11
+5	5112	1	Inv Rec Scanner 12
+5	5113	1	INV RECD SCANNER 13
+5	5114	1	INV RECD SCANNER 14
+5	5115	1	INV RECD SCANNER 15
+5	5116	1	INV RECD SCANNER 16
+5	5117	1	INV RECD SCANNER 17
+5	5118	1	INV RECD SCANNER 18
+5	5119	1	inv rec scanner 19
+5	512 	1	Inv Rec Scanner 2
+5	5120	1	inv rec scanner 20
+5	513 	1	Inv Rec Scanner 3
+5	514 	1	Inv Rec Scanner 4
+5	515 	1	Inv Rec Scanner 5
+6	516 	1	Inv Rec Scanner 6
+5	517 	1	Inv Rec Scanner 7
+5	518 	1	Inv Rec Scanner 8
+6	519 	1	Inv Rec Scanner 9
+17	521 	2	R/M USAGE SCANNER 1
+17	5210	2	R/M USAGE SCANNER 10
+17	5211	2	R/M USAGE SCANNER 11
+17	5212	2	R/M USAGE SCANNER 12
+17	5213	2	USAGE SCANNER 13
+17	5214	2	USAGE SCANNER 14
+17	5215	2	USAGE SCANNER 15
+17	5216	2	USAGE SCANNER 16
+17	5217	2	USAGE SCANNER 17
+17	5218	2	USAGE SCANNER 18
+17	5219	2	usage scanner 19
+17	522 	2	R/M USAGE SCANNER 2
+17	5220	2	usage scanner 20
+17	523 	2	R/M USAGE SCANNER 3
+17	524 	2	R/M USAGE SCANNER 4
+17	525 	2	R/M USAGE SCANNER 5
+17	526 	2	R/M USAGE SCANNER 6
+17	527 	2	R/M USAGE SCANNER 7
+17	528 	2	R/M USAGE SCANNER 8
+17	529 	2	R/M USAGE SCANNER 9
+17	541 	4	del inv scanner1
+17	5419	4	delete scanner 19
+17	542 	4	del inv scanner 2
+17	5420	4	delete scanner 20
+17	543 	4	del inv scanner 3
+17	544 	4	del inv scanner 4
+6	5505	1	FACS Inv Rcvd
+1	5593	1	Anthony Cervone
+5	591 	1	IR PRINT SCANNER 1
+5	5910	1	IR PRINT SCANNER 10
+5	5911	1	irlabel print 111
+5	5912	1	IR PRINT SCANNER 12
+5	5913	1	IR PRINT SCANNER 13
+1	5914	1	RCV RETAIL PARTIALS
+5	5915	1	IR PRINT SCANNER 15
+5	5916	1	IR PRINT SCANNER 16
+5	5917	1	IR PRINT SCANNER 17
+5	5918	1	IR PRINT SCANNER 18
+5	5919	1	ir label print 19
+5	592 	1	IR PRINT SCANNER 2
+5	5920	1	ir label print 20
+5	593 	1	IR PRINT SCANNER 3
+5	594 	1	IR PRINT SCANNER 4
+5	595 	1	IR PRINT SCANNER 5
+5	596 	1	IR PRINT SCANNER 6
+5	597 	1	IR PRINT SCANNER 7
+5	598 	1	IR PRINT SCANNER 8
+17	6   	1	scale006
+6	600 	1	I/R wh#6 fw
+6	611 	1	Inv Rec Scanner 1
+6	6110	1	Inv Rec Scanner 10
+6	6111	1	Inv Rec Scanner 11
+6	6112	1	Inv Rec Scanner 12
+6	6113	1	inv rec scanner 13
+6	6114	1	inv rec scanner 14
+6	6115	1	inv rec scanner 15
+6	6116	1	inv rec scanner 16
+6	6117	1	INV RECD SCANNER 17
+6	6118	1	INV RECD SCANNER 18
+6	6119	1	inv rec scanner 19
+6	612 	1	Inv Rec Scanner 2
+6	6120	1	inv rec scanner 20
+6	613 	1	Inv Rec Scanner 3
+6	614 	1	Inv Rec Scanner 4
+6	615 	1	Inv Rec Scanner 5
+6	616 	1	Inv Rec Scanner 6
+6	617 	1	Inv Rec Scanner 7
+6	618 	1	Inv Rec Scanner 8
+6	619 	1	Inv Rec Scanner 9
+17	621 	2	USAGE SCANNER 1
+17	6210	2	USAGE SCANNER 10
+17	6211	2	USAGE SCANNER 11
+17	6212	2	USAGE SCANNER 12
+17	6213	2	inv usage scanner 13
+17	6214	2	inv usage scanner 14
+17	6215	2	inv usage scanner 15
+17	6216	2	inv usage scanner 16
+17	6217	2	USAGE SCANNER 17
+17	6218	2	USAGE SCANNER 18
+17	6219	2	usage scanner 19
+17	622 	2	USAGE SCANNER 2
+17	6220	2	usage scanner 20
+17	623 	2	USAGE SCANNER 3
+17	624 	2	USAGE SCANNER 4
+17	625 	2	USAGE SCANNER 5
+17	626 	2	USAGE SCANNER 6
+1	6269	1	CESAR RAMOS B4 RHARO
+17	627 	2	USAGE SCANNER 7
+17	628 	2	USAGE SCANNER 8
+17	629 	2	USAGE SCANNER 9
+5	6305	1	Receiving CHRobinson
+1	6397	1	RETURNED PRODUCT
+1	641 	4	Steve Adrian
+17	6410	4	DELETE SCANNER 10
+17	6411	4	DELETE SCANNER 11
+17	6412	4	DELETE SCANNER 12
+17	6413	4	inv del scanner 13
+17	6414	4	inv del scanner 14
+17	6415	4	inv del scanner 15
+17	6416	4	inv del scanner 16
+17	6417	4	DELETE SCANNER 17
+17	6418	4	DELETE SCANNER 18
+17	6419	4	delete scanner 19
+17	642 	4	DELETE SCANNER 2
+17	6420	4	delete scanner 20
+17	643 	4	DELETE SCANNER 3
+17	644 	4	DELETE SCANNER 4
+17	645 	4	DELETE SCANNER 5
+17	646 	4	DELETE SCANNER 6
+17	647 	4	inv del scanner 7
+17	648 	4	DELETE SCANNER 8
+17	649 	4	DELETE SCANNER 9
+1	6749	1	Sergio
+17	6890	1	Eddie Collins
+6	6919	1	ir label print 19
+6	6920	1	ir label print 20
+6	694 	1	Inv Rec Scanner 4
+11	7   	3	scale007
+7	711 	1	Inv Rec Scanner #1
+7	7110	1	Inv Rec Scanner 10
+7	7111	1	Inv Rec Scanner 11
+7	7112	1	Inv Rec Scanner 12
+7	7113	1	INV RECD SCANNER 13
+7	7114	1	INV RECD SCANNER 14
+7	7115	1	INV RECD SCANNER 15
+7	7116	1	INV RECD SCANNER 16
+7	7117	1	INV RECD SCANNER 17
+7	7118	1	INV RECD SCANNER 18
+7	712 	1	Inv Rec Scanner 2
+7	713 	1	Inv Rec Scanner 3
+7	714 	1	Inv Rec Scanner 4
+7	715 	1	Inv Rec Scanner 5
+7	716 	1	Inv Recpt Scanner 6
+7	717 	1	Inv Recp Scanner 7
+7	718 	1	Inv Rec Scanner 8
+7	719 	1	Inv Rec Scanner 9
+7	721 	2	R/M USAGE SCANNER 1
+17	7210	2	R/M USAGE SCANNER 10
+17	7211	2	R/M USAGE SCANNER 11
+17	7212	2	R/M USAGE SCANNER 12
+17	7213	2	inv usage scanner 13
+17	7214	2	usage scanner 14
+17	7215	2	usage scanner 15
+17	7216	2	usage scanner 16
+17	7217	2	usage scanner 17
+17	7218	2	usage scanner 18
+17	722 	2	R/M USAGE SCANNER 2
+17	723 	2	R/M USAGE SCANNER 3
+17	724 	2	R/M USAGE SCANNER 4
+17	725 	2	R/M USAGE SCANNER 5
+17	726 	2	R/M USAGE SCANNER 6
+17	727 	2	R/M USAGE SCANNER 7
+17	728 	2	R/M USAGE SCANNER 8
+17	729 	2	R/M USAGE SCANNER 9
+17	7300	4	delete pc wkstn
+1	7301	1	inv rec pc wkstn
+2	7302	1	inv rec pc wrkstn
+17	7303	4	
+5	7305	1	rec inv pc wrkstn
+6	7306	1	rec inv pc wrkstn
+7	7310	4	PC WORKSTN DELETE
+1	7311	1	inv rec pc wkstn
+1	7320	4	Prod Code Transfer
+1	7321	1	Prod Code Transfer
+1	7330	4	warehouse1delete
+1	7331	1	receivew1
+1	7340	4	4to5Program
+1	7341	1	Rec whse 1
+1	7350	4	Delete Whse1
+1	7351	1	
+1	7360	4	warehouse1delete
+1	7361	1	warehouse1rec
+1	7370	4	BLUE RACKS DEL 4TO5
+1	7371	1	BLUE RACKS RCV 4TO5
+6	7380	4	W6 DEL 4TO5
+6	7381	1	W6 4to5 rcv
+7	741 	4	delete scanner 1
+17	7410	4	delete scanner 10
+17	7411	4	delete scanner 11
+17	7412	4	delete scanner 12
+17	7413	4	delete scanner 13
+17	7414	4	delete scanner 14
+5	7415	1	FACS RCV WHSE5 MORTN
+17	7416	4	delete scanner 16
+17	7417	4	delete scanner 17
+17	7418	4	delete scanner 18
+17	7419	4	delete scanner 19
+7	742 	4	delete scanner 2
+7	7420	4	delete scanner 20
+1	7421	1	RAY GONZALEZ
+2	7422	1	FRANK NICOSIA BEV 
+17	7423	4	delete scanner 23
+7	743 	4	delete scanner 3
+17	744 	4	delete scanner 4
+17	745 	4	delete scanner 5
+17	746 	4	delete scanner 6
+17	747 	4	delete scanner 7
+17	748 	4	delete scanner 8
+17	749 	4	delete scanner 9
+6	7685	1	FA Inv Rcv
+1	8   	3	SCALE 8
+17	811 	1	Inv Rec Scanner 1
+1	8110	5	PRINT ONLY BY FRZR
+17	8111	1	Inv Rec Scanner 11
+17	8112	1	Inv Rec Scanner 12
+1	8113	1	ANTHONY CERVONE TEMP
+17	812 	1	Inv Rec Scanner 2
+17	813 	1	Inv Rec Scanner 3
+17	814 	1	Inv Rec Scanner 4
+17	815 	1	Inv Rec Scanner 5
+17	816 	1	Inv Rec Scanner 6
+8	817 	1	Inv Rec Scanner 7
+17	818 	1	Inv Rec Scanner 8
+17	819 	1	Inv Rec Scanner 9
+1	8301	1	FRANK NICOSIA
+5	8305	1	FRANK NICOSIA WHSE5
+1	8701	1	OAKLEY RECEIVE PRINT
+1	8901	1	Eddie Collins
+6	9205	1	SYP FREEZER RCV 4 FA
+5	9712	1	CH Robinson IR Rcpt
+1	9999	1	Test Line

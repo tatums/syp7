@@ -1,0 +1,23 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  date: 2011-03-27
+  code: 1
+  transaction_code: 1
+  product_code: 1
+  available_qty: 1
+  price_uom: MyString
+  alt_uom: MyString
+  available_price: 9.99
+  pallet_code: 1
+
+two:
+  date: 2011-03-27
+  code: 1
+  transaction_code: 1
+  product_code: 1
+  available_qty: 1
+  price_uom: MyString
+  alt_uom: MyString
+  available_price: 9.99
+  pallet_code: 1
